@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+  max-width: 100vw;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-color:'#1F233E',;
+}
+
+.icon{
+    width: 4em;
+    font-size: 4em; 
+    cursor: pointer;
+    color: #fff;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.2);
+      color: #00d9f5;
+    }
+    
+  }
+
+
+  .chip-container {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    padding: 16px; 
+  }
+  
+  .chip {
+    margin: 0 10px; 
+    flex: 0 0 auto; 
+  }
+  
+
+  .chip-container::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .boton{
+    background-color :#FFE031;
+    color: black;
+    border-radius: 10px;
+    width: 350px;
+  }
